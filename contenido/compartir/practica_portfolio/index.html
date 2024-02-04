@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Samuel Lamas</title>
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+        <style>
+            body{
+                background-color: black;
+                font-family: "Quicksand";
+                color: white;
+
+            }
+            h1 {
+                font-size: 2vw;
+            }
+            h2 {
+                font-size: 1vw;
+            }
+            p {
+                font-size: 0.8vw;
+            }
+            .principal {
+                display: flex;
+                width: 75%;
+                margin: auto;
+                background-color: black;
+            }
+            .nombre-foto {
+                width: 50%;
+                border-width: 0rem;
+                border-color: black;
+                border-style: solid;
+                position: relative;
+            }
+            .img-div {
+                width: 50%;
+                height: 100%;
+            }
+            .perfil-img {
+                max-width: 100%;
+                border-radius: 50%;
+                margin-top: 20%;
+            }
+            .titulo-nombre {
+                margin-top: 33%;
+                margin-left: 33%;  
+            }
+            .base-div {
+                width: 75%;
+                border-width: 0rem;
+                border-color: black;
+                border-style: solid;
+                margin: auto;
+                
+            }
+            .acerca-texto {
+                margin-top: 1rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            .lorem-p {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            .video-yt {
+                width: 100%;
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+            }
+            .video-yt iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .video-dim {
+                width: 50%;
+                margin: auto;
+                margin-top: 1rem;
+            }
+            .radio-form {
+                margin-top: 0.5rem;
+            }
+            .radio-form input {
+                margin-left: 1rem;
+            }
+            form {
+                margin-left: 1rem;
+                font-size: 0.8vw;
+            }
+            input {
+                background-color: black;
+                color: white;
+                font-family: "Quicksand";
+                padding-left: 1%;
+                font-size: 0.8vw;
+            }
+            textarea {
+                background-color: black;
+                color: white;
+                font-family: "Quicksand";
+                padding-left: 1%;
+                font-size: 0.8vw;
+                vertical-align: top;
+            }
+            button{
+                font-family: "Quicksand";
+                font-size: 0.8vw;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="principal">
+            <div class="nombre-foto">
+                <h1 class="titulo-nombre">Portfolio - Samuel Lamas Monje</h1>
+            </div>
+            <div class="nombre-foto">
+                <div class="img-div">
+                    <img class="perfil-img" src="images/perfil.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="base-div">
+            <h2 class="acerca-texto">Acerca de mí</h2>
+            <p class="lorem-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo repudiandae corporis, pariatur impedit dolor aut iste, aperiam porro aliquid repellendus non. Velit harum, doloribus architecto accusamus recusandae veritatis ad optio.</p>
+        </div>
+        <div class="base-div">
+            <h2 class="acerca-texto">Video favorito</h2>
+            <div class="video-dim">
+                <div class="video-yt">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TRxf5hLZih4?si=k9DiwED7SQ2mgwX1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: none;"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="base-div">
+            <h2 class="acerca-texto">Formulario</h2>
+            <form>
+                <h4>Elige tu fruta favorita</h4>
+                <div class="radio-form">
+                    <input type="radio" id="manzana" name="frutas" value="manzana">
+                    <label>Manzana</label>
+                </div>
+                <div class="radio-form">
+                    <input type="radio" id="pera" name="frutas" value="pera">
+                    <label>Pera</label>
+                </div>
+                <div class="radio-form">
+                    <input type="radio" id="melon" name="frutas" value="melon">
+                    <label>Melón</label>
+                </div>
+                <div class="radio-form">
+                    <input type="radio" id="fresa" name="frutas" value="fresa">
+                    <label>Fresa</label>
+                </div>
+
+            </form>
+        </div>
+        <div class="base-div">
+            <h2 class="acerca-texto">Contáctame</h2>
+            <div class="acerca-texto" style="margin-bottom: 2rem;">
+                <a href="https://www.linkedin.com/in/samuellamasmonje/" target="_blank"><img src="images/linkedin-logo.png" alt="" style="width: 5%;"></a>
+                <a href="https://www.artstation.com/gagun3d" target="_blank"><img src="images/artstation-logo.png" alt="" style="width: 5%; filter: invert(100%);"></a>
+            </div>
+            <form>
+                <label for="name">Nombre
+                    <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Ingresa tu nombre"
+                    required
+                    style="width: 10%;"
+                    >
+                </label>
+                <label for="email" style="margin-left: 1rem;">Correo
+                    <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Ingresa tu Correo"
+                    style="width: 20%;"
+                    required
+                    >
+                </label>
+                <div style="margin-top: 2rem;">
+                    <label for="comentario">Comentario
+                        <textarea name="comentario" id="comentario" placeholder="Escribe tu comentario aquí" required style="width: 50%; height: 90px;"></textarea>
+                    </label>
+                </div>
+                <div class="radio-form" style="margin-top: 2rem;">
+                    <label for="num">Número móvil
+                        <input
+                        type="number"
+                        name="num"
+                        id="num"
+                        placeholder="Ingresa tu número de teléfono"
+                        required
+                        style="width: 20%;"
+                        >
+                    </label>
+                </div>
+                <div class="radio-form" style="text-align: center; margin-top: 2rem;">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
