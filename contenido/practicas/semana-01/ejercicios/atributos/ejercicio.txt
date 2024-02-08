@@ -1,0 +1,11 @@
+En el editor de la derecha encontrarás un código HTML que contiene algunos errores. Trata de corregirlos asegurándote de que todos los elementos HTML tienen los atributos correctos y necesarios. Una vez corregidos los errores, valida tu código con el Validador HTML de W3C.
+
+Puntos clave a tener en cuenta al corregir el código:
+
+Asegúrate de que todos los atributos estén correctamente escritos.
+
+Asegúrate de que los atributos obligatorios estén presentes en los elementos necesarios.
+
+Asegúrate de que los atributos que requieren un valor tengan un valor válido.
+
+Si es necesario, añade espacios entre los atributos de los elementos.

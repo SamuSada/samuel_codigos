@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+p {
+    color: white;
+}
+h2 {
+    color: white;
+}
+.parrafo01 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+}
+#parrafo02 {
+    color: white;
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+}
