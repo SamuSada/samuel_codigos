@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Formulario de Login</title>
+    <style>
+      li {
+        margin-bottom: 1rem;
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Formulario de Login</h1>
+
+      <!-- Crea aquí el formulario -->
+        <form>
+            <fieldset>
+                <legend>Login</legend>
+                <ul>
+                    <li>
+                        <label for="Email">Email: 
+                            <input type="email" id="Email" name="Email" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="Pass">Contraseña: 
+                            <input type="password" id="Pass" name="Pass" required>
+                        </label>
+                    </li>
+                </ul>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar" name="Enviar" id="Enviar">
+            </fieldset>
+        </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.contenedor-flex {
+    border: solid black 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.item-flex {
+    background-color: lightblue;
+    border: solid black 1px;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+    width: 100px;
+}
