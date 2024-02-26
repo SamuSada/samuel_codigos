@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "section"
+    "footer"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 8.5rem;
+    background-image: url("media/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+
+header{
+    display: flex;
+    text-align: center;
+    grid-area: header;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    grid-area: nav;
+    justify-content: center;
+}
+
+.nav-buttons{
+    display: flex;
+    text-align: center;
+    width: 12.5rem;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid black;
+    border-radius: 5%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+}
+.nav-buttons:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+section{
+    grid-area: section;
+    border: 1px solid black;
+}
+
+footer{
+    grid-area: footer;
+    border: 1px solid black;
+}
+
+
